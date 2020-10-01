@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style type="text/css">
+		body {
+			background: grey;
+		}
+		#branch {
+			background: lightgrey;
+			color: blue;
+		}
+		#header {
+			font-size: 3em;
+			text-align-last: center;
+			background: #2784CD;
+			color: white;
+			font-family: "gill-sans";
+			margin: 10px;
+			padding: 15px;
+			border: 3px solid gold;
+		}
+		#options {
+			background: aqua;
+		}
+		div {
+			font-size: 20px;
+			margin: 10px;
+			padding: 5px;
+		}
+		.center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          border: 3px dashed black;
+          margin-bottom: 20px;
+        }
+        #footer {
+        	background: lightgrey;
+        	text-align-last: center;
+        }
+
+	</style>
+</head>
+<body>
+	<div id="header">Engineering</div>
+	<div><hr width="80%">
+		<p>Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings. The discipline of engineering encompasses a broad range of more specialized fields of engineering, each with a more specific emphasis on particular areas of applied mathematics, applied science, and types of application.</p>
+
+		<img class="center" alt="There should be an image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/PIA19664-MarsInSightLander-Assembly-20150430.jpg/1024px-PIA19664-MarsInSightLander-Assembly-20150430.jpg">
+		
+		
+
+		<h2><u>Definition</u></h2>
+
+		<p>The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property.</p>
+	</div>
+
+	<div>
+	<h2><u>Enter some of your details</u></h2>
+		<form>
+			<div>
+				<label for="name">Name : </label>
+				<input type="text" name="name" placeholder="Enter your name">
+				<br><br>
+
+				<label>Gender : </label>
+				<input type="radio" name="gender" value="Choice1">
+				<label for="male">Male</label>
+
+				<input type="radio" name="gender" value="Choice2">
+				<label for="female">Female</label>
+
+   				<label for="email">Email : </label>
+				<input type="email" name="email" placeholder="anything@mail.com">
+				<br><br>
+				
+				<label for="passwd">Password : </label>
+				<input type="password" name="passwd">
+				<br><br>
+
+				
+				<label for="branch">Your Engineering branch : </label>
+				<select name="branch">
+					<option value="0" id="branch" selected disabled>Choose Branch</option>
+					<option id="options" value="1">Mechanical</option>
+					<option id="options" value="2">Computer Science</option>
+					<option id="options" value="3">Information Technology</option>
+					<option id="options" value="4">Electrical</option>
+					<option id="options" value="5">Electronics & Communication</option>
+					<option id="options" value="6">Aeronautical</option>
+					<option id="options" value="7">Civil</option>
+					<option id="options" value="8">Chemical</option>
+					<option id="options" value="9">Agricultural</option>
+					<option id="options" value="10">Mining</option>
+					<option id="options" value="11">Biochemical</option>
+					<option id="options" value="12">Electrical and Instrumentation</option>
+					<option id="options" value="13">Metallurgical</option>
+				</select>
+				
+
+			</div>
+		</form>
+		
+	</div>
+		<hr width="80%">
+		<div id="footer">For more details regarding Engineering: <a href="https://en.wikipedia.org/wiki/Engineering" target="_blank">Check this</a></div>
+</body>
+</html>
